@@ -4,6 +4,10 @@
     color: purple;
 }*/
 
+html {
+    margin: 10%;
+}
+
 h1 {
     color:mediumslateblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -32,3 +36,22 @@ img {
     font-weight: 100;
 }
 
+.background {
+    /* display: inline-block; */
+    /* width: 20%; */
+    background-color: lightblue;
+}
+
+.div-ingredients {
+    width: 300px;
+    border: 1px lightgray dashed;
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div-ingredients:hover{
+    background-image: url("/img/max.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
